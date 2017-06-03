@@ -1,0 +1,82 @@
+
+/*
+You can apply CSS elements to entire HTML classes. Review Lesson 1.3
+if you need a refresher about how to do this. */
+
+/*
+Resources:
+https://www.youtube.com/watch?v=BJuLHqTWirU
+https://youtu.be/IiJzbXzOdHQ
+https://www.youtube.com/watch?v=EZYf3IPuRC4
+http://kyleschaeffer.com/development/css-font-size-em-vs-px-vs-pt-vs/
+https://www.youtube.com/watch?v=_5GzWskBSOg
+https://www.w3schools.com/css/css_rwd_grid.asp
+https://www.w3schools.com/html/html_blocks.asp
+https://www.w3schools.com/css/css_link.asp
+https://codepen.io/isg13/pen/YZVRQa
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: url(353.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "Arial";
+    margin: 1% 0 0 0;
+}
+
+#bandname {
+	text-align:center;
+	font-size: 3em;
+	border: black solid 3px;
+	margin: 10px 100px;
+}
+
+#left {
+	width: 17%;
+	height: 300px;
+	background: #585d57;
+}
+
+#shows {
+    height: auto;
+	width: 50%;
+	background: #6d7563;
+}
+
+#listen {
+    height: 200px;
+	width: 350px;
+	background: #8d7563;
+}
+
+#picture {
+	max-width: 100%;
+}
+
+#links {
+    background: #607563;
+}
+
+a:link{
+    color : #435066;
+}
+
+a:visited {
+    color: #3f1e27;
+}
+
+.colorblock {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 1.5% 1.5% 1.5%;
+    }
+
+.flex-container {
+    display: flex;
+}
